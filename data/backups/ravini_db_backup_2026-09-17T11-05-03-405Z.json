@@ -1,0 +1,405 @@
+{
+  "version": 1,
+  "lastPersistedAt": "2026-09-09T15:58:15.070Z",
+  "users": [
+    {
+      "id": "usr_baraka_mabula",
+      "name": "Baraka Mabula",
+      "username": "255748604483",
+      "email": "barakamabula82@gmail.com",
+      "phone": "255748604483",
+      "password": "1234",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "coverPhoto": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&w=1200&q=80",
+      "bio": "Mwanzilishi & Msimamizi Mkuu (Super Admin) wa RAVINI COMPANY LIMITED. Full Controller System. Karibuni sana kwenye mtandao mkuu wa kijamii wa Kitanzania! 🇹🇿🚀",
+      "location": "Dar es Salaam, Tanzania",
+      "verified": true,
+      "role": "SUPER_ADMIN",
+      "walletBalance": 250000,
+      "followersCount": 12450,
+      "followingCount": 320,
+      "createdAt": "2026-01-10T08:00:00.000Z",
+      "isOnline": true,
+      "savedPosts": [],
+      "followingUsers": [
+        "usr_amina_juma",
+        "usr_neema_mrosso"
+      ],
+      "creatorApproved": true,
+      "creatorApplicationStatus": "approved",
+      "creatorDetails": {
+        "category": "Teknolojia & Uongozi",
+        "bio": "Mwanzilishi wa mifumo ya kidijitali na mhariri wa maudhui ya maendeleo.",
+        "totalReach": 45000,
+        "subscribers": 12400
+      },
+      "businessApproved": true,
+      "businessApplicationStatus": "approved",
+      "businessDetails": {
+        "companyName": "RAVINI COMPANY LIMITED",
+        "category": "Teknolojia & Mawasiliano",
+        "tin": "144-892-301",
+        "phone": "+255 748 604 483",
+        "email": "info@ravini.co.tz",
+        "address": "Ali Hassan Mwinyi Road, Dar es Salaam",
+        "description": "Kampuni kuu inayomiliki na kuendesha jukwaa la RAVINI nchini Tanzania.",
+        "productsCount": 4
+      },
+      "permissions": [
+        "all"
+      ],
+      "companyApproved": true
+    },
+    {
+      "id": "usr_amina_juma",
+      "name": "Amina Juma",
+      "username": "aminajuma",
+      "email": "amina.juma@gmail.com",
+      "phone": "+255 784 987 654",
+      "password": "password123",
+      "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=400&q=80",
+      "coverPhoto": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+      "bio": "Mjasiriamali wa Mitindo na Mwanaharakati wa Biashara za Kidijitali Zanzibar na Dar es Salaam.",
+      "location": "Zanzibar / Dar es Salaam",
+      "verified": true,
+      "role": "creator",
+      "walletBalance": 85000,
+      "followersCount": 8420,
+      "followingCount": 412,
+      "createdAt": "2026-02-01T10:00:00.000Z",
+      "isOnline": true,
+      "savedPosts": [],
+      "followingUsers": [
+        "usr_baraka_mabula"
+      ],
+      "creatorApproved": true,
+      "creatorApplicationStatus": "approved",
+      "creatorDetails": {
+        "category": "Mitindo & Utamaduni",
+        "bio": "Mbunifu wa mavazi na batiki asilia za Afrika Mashariki.",
+        "totalReach": 28000,
+        "subscribers": 8400
+      }
+    },
+    {
+      "id": "usr_juma_rashid",
+      "name": "Juma Rashid",
+      "username": "jumarashid",
+      "email": "juma.rashid@gmail.com",
+      "phone": "+255 755 123 456",
+      "password": "password123",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      "coverPhoto": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bio": "Mwanasoka na Mkufunzi wa Mazoezi. Nguvu ya mwili, akili na maendeleo!",
+      "location": "Arusha, Tanzania",
+      "verified": false,
+      "role": "user",
+      "walletBalance": 25000,
+      "followersCount": 1540,
+      "followingCount": 210,
+      "createdAt": "2026-02-10T14:30:00.000Z",
+      "isOnline": false,
+      "savedPosts": [],
+      "followingUsers": [
+        "usr_baraka_mabula"
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_init_baraka",
+      "userId": "usr_baraka_mabula",
+      "userRaviniId": "RAV-0001-TZ",
+      "type": "deposit",
+      "amount": 250000,
+      "status": "completed",
+      "createdAt": "2026-01-10T08:00:00.000Z",
+      "timestamp": "2026-01-10T08:00:00.000Z",
+      "description": "Initial Super Admin reserve balance",
+      "reference": "DEP-INIT-001",
+      "paymentMethod": "system_reserve"
+    }
+  ],
+  "adCampaigns": [],
+  "companyLedger": [
+    {
+      "id": "cld_init_001",
+      "userId": "usr_baraka_mabula",
+      "userRaviniId": "RAV-0001-TZ",
+      "userName": "Baraka Mabula",
+      "service": "other",
+      "amount": 500000,
+      "currency": "RVC",
+      "type": "income",
+      "status": "completed",
+      "timestamp": "2026-01-10T08:00:00.000Z",
+      "reference": "CORP-FOUNDING-CAPITAL",
+      "relatedType": "manual"
+    }
+  ],
+  "refunds": [],
+  "pricing": {
+    "adPricing": {
+      "sponsoredPostPerDay": 1000,
+      "sponsoredVideoPerDay": 1800,
+      "sponsoredClipPerDay": 1400,
+      "sponsoredProductPerDay": 1200,
+      "sponsoredBusinessPerDay": 2000,
+      "bannerPerDay": 2500,
+      "feedAdPerDay": 1500,
+      "cpmRate": 100,
+      "minimumBudgetRvc": 1000
+    },
+    "premiumPricing": {
+      "monthlyRvc": 9900,
+      "quarterlyRvc": 26900,
+      "annualRvc": 95000
+    },
+    "pushViralPackages": [
+      {
+        "id": "viral_starter",
+        "name": "Starter Boost (Kiwango cha Kwanza)",
+        "nameEn": "Starter Boost",
+        "description": "Tangaza maudhui yako kwa hadhira pana nchini Tanzania kwa masaa 24.",
+        "descriptionEn": "Promote content across Tanzania for 24 hours.",
+        "priceRvc": 2500,
+        "priceTzs": 2500,
+        "targetViewsEstimate": "1,500 - 3,500",
+        "durationDays": 1,
+        "guaranteedPushBadge": true,
+        "priorityRanking": 1,
+        "isPopular": false
+      },
+      {
+        "id": "viral_pro",
+        "name": "Pro Reach (Kiwango cha Juu)",
+        "nameEn": "Pro Reach",
+        "description": "Ongeza ushawishi mkubwa kwa siku 3 mfululizo na beji ya Verified Boost.",
+        "descriptionEn": "Huge reach for 3 consecutive days with Verified Boost badge.",
+        "priceRvc": 6500,
+        "priceTzs": 6500,
+        "targetViewsEstimate": "5,000 - 12,000",
+        "durationDays": 3,
+        "guaranteedPushBadge": true,
+        "priorityRanking": 2,
+        "isPopular": true
+      },
+      {
+        "id": "viral_national",
+        "name": "National Explosion (Kiwango cha Taifa)",
+        "nameEn": "National Explosion",
+        "description": "Fikia taifa zima kwa siku 7, video, sauti na matangazo ya juu ya ukurasa.",
+        "descriptionEn": "Nationwide spotlight for 7 days with top page ranking.",
+        "priceRvc": 14500,
+        "priceTzs": 14500,
+        "targetViewsEstimate": "15,000 - 45,000",
+        "durationDays": 7,
+        "guaranteedPushBadge": true,
+        "priorityRanking": 3,
+        "isPopular": false
+      }
+    ],
+    "marketCommissionRate": 0.05,
+    "updatedAt": "2026-02-15T00:00:00.000Z",
+    "updatedBy": "Baraka Mabula (Super Admin)"
+  },
+  "rvcRequests": [],
+  "auditLogs": [
+    {
+      "id": "aud_init_001",
+      "actorId": "usr_baraka_mabula",
+      "actorName": "Baraka Mabula",
+      "actorRole": "super_admin",
+      "action": "SYSTEM_INITIALIZED",
+      "target": "ravini_platform",
+      "targetId": "ravini_platform",
+      "details": "RAVINI Production Persistence Engine Initialized with durable storage.",
+      "timestamp": "2026-09-09T15:47:31.861Z"
+    }
+  ],
+  "systemSettings": {
+    "allowRegistrations": true,
+    "allowMarketPosting": true,
+    "allowRvcDeposits": true,
+    "allowStories": true,
+    "maintenanceMode": false,
+    "maintenanceMessage": "Mfumo wa RAVINI unafanyiwa maboresho ya kiufundi. Huduma zitarejea punde.",
+    "allowedRegistration": true,
+    "requirePhoneVerification": false,
+    "requireEmailVerification": false,
+    "maxUploadSizeMB": 50,
+    "minDepositRvc": 1000,
+    "maxDepositRvc": 5000000,
+    "minWithdrawRvc": 2000,
+    "maxWithdrawRvc": 2000000,
+    "systemNotice": "",
+    "showSystemNotice": false,
+    "updatedAt": "2026-02-15T00:00:00.000Z",
+    "updatedBy": "Baraka Mabula (Super Admin)"
+  },
+  "messages": [
+    {
+      "id": "msg_1788969223810_u9bsqv",
+      "senderId": "usr_baraka_mabula",
+      "receiverId": "usr_amina_juma",
+      "conversationId": "conv_1788969223810_tvphf",
+      "content": "Habari Baraka! Huu ni ujumbe wa majaribio ya kiufundi wa wakati halisi (WebSockets).",
+      "createdAt": "2026-09-09T15:53:43.811Z",
+      "read": true,
+      "status": "read",
+      "idempotencyKey": "audit_idem_1788969223809",
+      "deliveredAt": "2026-09-09T15:53:43.812Z",
+      "readAt": "2026-09-09T15:53:44.713Z"
+    },
+    {
+      "id": "msg_1788969226820_61wgpj",
+      "senderId": "usr_baraka_mabula",
+      "receiverId": "usr_amina_juma",
+      "conversationId": "conv_1788969223810_tvphf",
+      "content": "Ujumbe uliotumwa ukiwa nje ya mtandao (Offline test)",
+      "createdAt": "2026-09-09T15:53:46.820Z",
+      "read": true,
+      "status": "read",
+      "idempotencyKey": "idem_offline_1788969226819",
+      "readAt": "2026-09-09T15:58:12.122Z"
+    },
+    {
+      "id": "msg_1788969491219_yjx4dz",
+      "senderId": "usr_baraka_mabula",
+      "receiverId": "usr_amina_juma",
+      "conversationId": "conv_1788969223810_tvphf",
+      "content": "Habari Baraka! Huu ni ujumbe wa majaribio ya kiufundi wa wakati halisi (WebSockets).",
+      "createdAt": "2026-09-09T15:58:11.219Z",
+      "read": true,
+      "status": "read",
+      "idempotencyKey": "audit_idem_1788969491218",
+      "deliveredAt": "2026-09-09T15:58:11.219Z",
+      "readAt": "2026-09-09T15:58:12.122Z"
+    },
+    {
+      "id": "msg_1788969494233_cuiv00",
+      "senderId": "usr_baraka_mabula",
+      "receiverId": "usr_amina_juma",
+      "conversationId": "conv_1788969223810_tvphf",
+      "content": "Ujumbe uliotumwa ukiwa nje ya mtandao (Offline test)",
+      "createdAt": "2026-09-09T15:58:14.233Z",
+      "read": false,
+      "status": "sent",
+      "idempotencyKey": "idem_offline_1788969494232"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_1788969223810_tvphf",
+      "type": "direct",
+      "participantIds": [
+        "usr_baraka_mabula",
+        "usr_amina_juma"
+      ],
+      "unreadCounts": {
+        "usr_baraka_mabula": 0,
+        "usr_amina_juma": 1
+      },
+      "pinnedByUserIds": [],
+      "archivedByUserIds": [],
+      "mutedByUserIds": [],
+      "createdAt": "2026-09-09T15:53:43.810Z",
+      "updatedAt": "2026-09-09T15:58:14.233Z",
+      "lastMessage": {
+        "id": "msg_1788969494233_cuiv00",
+        "senderId": "usr_baraka_mabula",
+        "receiverId": "usr_amina_juma",
+        "conversationId": "conv_1788969223810_tvphf",
+        "content": "Ujumbe uliotumwa ukiwa nje ya mtandao (Offline test)",
+        "createdAt": "2026-09-09T15:58:14.233Z",
+        "read": false,
+        "status": "sent",
+        "idempotencyKey": "idem_offline_1788969494232"
+      }
+    }
+  ],
+  "messageRequests": [],
+  "callSessions": [
+    {
+      "id": "call_1788969493025_9x6ocq",
+      "type": "voice",
+      "callerId": "usr_baraka_mabula",
+      "callerName": "Baraka Mabula",
+      "callerAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "receiverId": "usr_amina_juma",
+      "receiverName": "Amina Juma",
+      "receiverAvatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=400&q=80",
+      "status": "ended",
+      "startedAt": "2026-09-09T15:58:13.025Z",
+      "stunTurnConfigured": false,
+      "connectedAt": "2026-09-09T15:58:13.427Z",
+      "endedAt": "2026-09-09T15:58:13.730Z",
+      "durationSeconds": 0
+    },
+    {
+      "id": "call_1788969225616_b0npt9",
+      "type": "voice",
+      "callerId": "usr_baraka_mabula",
+      "callerName": "Baraka Mabula",
+      "callerAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "receiverId": "usr_amina_juma",
+      "receiverName": "Amina Juma",
+      "receiverAvatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=400&q=80",
+      "status": "ended",
+      "startedAt": "2026-09-09T15:53:45.616Z",
+      "stunTurnConfigured": false,
+      "connectedAt": "2026-09-09T15:53:46.017Z",
+      "endedAt": "2026-09-09T15:53:46.318Z",
+      "durationSeconds": 0
+    }
+  ],
+  "privacySettings": {
+    "usr_huduma_wateja": {
+      "userId": "usr_huduma_wateja",
+      "whoCanMessageMe": "everyone",
+      "whoCanCallMe": "everyone",
+      "showReadReceipts": true,
+      "showOnlineStatus": true,
+      "showLastSeen": true,
+      "screenshotProtection": false,
+      "blockedUserIds": [],
+      "updatedAt": "2026-09-09T15:52:13.510Z"
+    },
+    "usr_baraka": {
+      "userId": "usr_baraka",
+      "whoCanMessageMe": "everyone",
+      "whoCanCallMe": "everyone",
+      "showReadReceipts": true,
+      "showOnlineStatus": true,
+      "showLastSeen": true,
+      "screenshotProtection": false,
+      "blockedUserIds": [],
+      "updatedAt": "2026-09-09T15:52:13.511Z"
+    },
+    "usr_baraka_mabula": {
+      "userId": "usr_baraka_mabula",
+      "whoCanMessageMe": "everyone",
+      "whoCanCallMe": "everyone",
+      "showReadReceipts": true,
+      "showOnlineStatus": true,
+      "showLastSeen": true,
+      "screenshotProtection": false,
+      "blockedUserIds": [],
+      "updatedAt": "2026-09-09T15:53:43.805Z"
+    },
+    "usr_amina_juma": {
+      "userId": "usr_amina_juma",
+      "whoCanMessageMe": "everyone",
+      "whoCanCallMe": "everyone",
+      "showReadReceipts": true,
+      "showOnlineStatus": true,
+      "showLastSeen": true,
+      "screenshotProtection": false,
+      "blockedUserIds": [],
+      "updatedAt": "2026-09-09T15:53:43.806Z"
+    }
+  },
+  "blockedUsers": {
+    "usr_baraka_mabula": []
+  }
+}

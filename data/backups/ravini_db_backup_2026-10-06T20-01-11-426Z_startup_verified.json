@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "lastPersistedAt": "2026-10-06T20:01:11.426Z",
+  "users": [
+    {
+      "id": "usr_baraka_mabula",
+      "name": "Baraka Mabula",
+      "username": "255748604483",
+      "email": "barakamabula82@gmail.com",
+      "phone": "255748604483",
+      "password": "$2b$10$RpzLQsG/apfYIKAawdAlC.PiSSFK66lmBTnn7Le945Yf5ZyrP8hJ6",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "coverPhoto": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&w=1200&q=80",
+      "bio": "Mwanzilishi & Msimamizi Mkuu (Super Admin) wa RAVINI COMPANY LIMITED. Full Controller System. Karibuni sana kwenye mtandao mkuu wa kijamii wa Kitanzania! 🇹🇿🚀",
+      "location": "Dar es Salaam, Tanzania",
+      "verified": true,
+      "role": "MANAGER",
+      "walletBalance": 0,
+      "followersCount": 0,
+      "followingCount": 0,
+      "createdAt": "2026-01-10T08:00:00.000Z",
+      "isOnline": true,
+      "savedPosts": [],
+      "followingUsers": [],
+      "creatorApproved": true,
+      "creatorApplicationStatus": "approved",
+      "creatorDetails": {
+        "category": "Teknolojia & Uongozi",
+        "bio": "Mwanzilishi wa mifumo ya kidijitali na mhariri wa maudhui ya maendeleo.",
+        "totalReach": 0,
+        "subscribers": 0
+      },
+      "businessApproved": true,
+      "businessApplicationStatus": "approved",
+      "businessDetails": {
+        "companyName": "RAVINI COMPANY LIMITED",
+        "category": "Teknolojia & Mawasiliano",
+        "tin": "144-892-301",
+        "phone": "+255 748 604 483",
+        "email": "info@ravini.co.tz",
+        "address": "Ali Hassan Mwinyi Road, Dar es Salaam",
+        "description": "Kampuni kuu inayomiliki na kuendesha jukwaa la RAVINI nchini Tanzania.",
+        "productsCount": 4
+      },
+      "permissions": [
+        "all"
+      ],
+      "mustChangePassword": false,
+      "accountStatus": "ACTIVE",
+      "isDisabled": false,
+      "isSuspended": false
+    }
+  ],
+  "transactions": [],
+  "adCampaigns": [],
+  "companyLedger": [],
+  "refunds": [],
+  "pricing": {
+    "adPricing": {
+      "sponsoredPostPerDay": 1000,
+      "sponsoredVideoPerDay": 1800,
+      "sponsoredClipPerDay": 1400,
+      "sponsoredProductPerDay": 1200,
+      "sponsoredBusinessPerDay": 2000,
+      "bannerPerDay": 2500,
+      "feedAdPerDay": 1500,
+      "cpmRate": 100,
+      "minimumBudgetRvc": 1000
+    },
+    "premiumPricing": {
+      "monthlyRvc": 9900,
+      "quarterlyRvc": 26900,
+      "annualRvc": 95000
+    },
+    "pushViralPackages": [
+      {
+        "id": "viral_starter",
+        "name": "Starter Boost (Kiwango cha Kwanza)",
+        "nameEn": "Starter Boost",
+        "description": "Tangaza maudhui yako kwa hadhira pana nchini Tanzania kwa masaa 24.",
+        "descriptionEn": "Promote content across Tanzania for 24 hours.",
+        "priceRvc": 2500,
+        "priceTzs": 2500,
+        "targetViewsEstimate": "1,500 - 3,500",
+        "durationDays": 1,
+        "guaranteedPushBadge": true,
+        "priorityRanking": 1,
+        "isPopular": false
+      },
+      {
+        "id": "viral_pro",
+        "name": "Pro Reach (Kiwango cha Juu)",
+        "nameEn": "Pro Reach",
+        "description": "Ongeza ushawishi mkubwa kwa siku 3 mfululizo na beji ya Verified Boost.",
+        "descriptionEn": "Huge reach for 3 consecutive days with Verified Boost badge.",
+        "priceRvc": 6500,
+        "priceTzs": 6500,
+        "targetViewsEstimate": "5,000 - 12,000",
+        "durationDays": 3,
+        "guaranteedPushBadge": true,
+        "priorityRanking": 2,
+        "isPopular": true
+      },
+      {
+        "id": "viral_national",
+        "name": "National Explosion (Kiwango cha Taifa)",
+        "nameEn": "National Explosion",
+        "description": "Fikia taifa zima kwa siku 7, video, sauti na matangazo ya juu ya ukurasa.",
+        "descriptionEn": "Nationwide spotlight for 7 days with top page ranking.",
+        "priceRvc": 14500,
+        "priceTzs": 14500,
+        "targetViewsEstimate": "15,000 - 45,000",
+        "durationDays": 7,
+        "guaranteedPushBadge": true,
+        "priorityRanking": 3,
+        "isPopular": false
+      }
+    ],
+    "marketCommissionRate": 0.05,
+    "updatedAt": "2026-02-15T00:00:00.000Z",
+    "updatedBy": "Baraka Mabula (Super Admin)"
+  },
+  "rvcRequests": [],
+  "auditLogs": [
+    {
+      "id": "aud_init_001",
+      "actorId": "usr_baraka_mabula",
+      "actorName": "Baraka Mabula",
+      "actorRole": "super_admin",
+      "action": "SYSTEM_INITIALIZED",
+      "target": "ravini_platform",
+      "targetId": "ravini_platform",
+      "details": "RAVINI Production Persistence Engine Initialized with durable storage.",
+      "timestamp": "2026-10-06T20:01:11.426Z"
+    }
+  ],
+  "systemSettings": {
+    "allowRegistrations": true,
+    "allowMarketPosting": true,
+    "allowRvcDeposits": true,
+    "allowStories": true,
+    "maintenanceMode": false,
+    "maintenanceMessage": "Mfumo wa RAVINI unafanyiwa maboresho ya kiufundi. Huduma zitarejea punde.",
+    "allowedRegistration": true,
+    "requirePhoneVerification": false,
+    "requireEmailVerification": false,
+    "maxUploadSizeMB": 50,
+    "minDepositRvc": 1000,
+    "maxDepositRvc": 5000000,
+    "minWithdrawRvc": 2000,
+    "maxWithdrawRvc": 2000000,
+    "systemNotice": "",
+    "showSystemNotice": false,
+    "updatedAt": "2026-02-15T00:00:00.000Z",
+    "updatedBy": "Baraka Mabula (Super Admin)"
+  },
+  "paymentConfig": {
+    "whatsappNumber": "+255748604483",
+    "whatsappDisplayName": "RAVINI Payment Desk",
+    "paymentInstructions": "Malipo ya RAVINI yanafanyika kwa njia ya manual. Fanya malipo kupitia namba za Lipa zilizo hapa chini kisha bonyeza ENDELEA WHATSAPP kutuma namba ya kumbukumbu ya muamala wako.",
+    "paymentReferenceInstructions": "Tuma ujumbe wenye namba ya kumbukumbu ya muamala (SMS ya malipo) na jina lako la mtumiaji (Username) kupitia WhatsApp rasmi ili kuthibitishiwa.",
+    "minTopUpAmount": 1000,
+    "maxTopUpAmount": 5000000,
+    "isActive": true,
+    "availableMethods": [
+      "M-Pesa",
+      "Airtel Money",
+      "Mixx by Yas",
+      "HaloPesa"
+    ],
+    "mpesaNumber": "5566778",
+    "mpesaName": "RAVINI COMPANY LIMITED (Lipa Namba)",
+    "airtelNumber": "8899001",
+    "airtelName": "RAVINI COMPANY LIMITED (Paybill)",
+    "mixxNumber": "334455",
+    "mixxName": "RAVINI COMPANY LIMITED",
+    "haloPesaNumber": "778899",
+    "haloPesaName": "RAVINI COMPANY LIMITED",
+    "conversionRate": 1,
+    "updatedAt": "2026-02-15T00:00:00.000Z",
+    "updatedBy": "Baraka Mabula (Super Admin)"
+  },
+  "messages": [],
+  "conversations": [],
+  "messageRequests": [],
+  "callSessions": [],
+  "privacySettings": {},
+  "blockedUsers": {}
+}

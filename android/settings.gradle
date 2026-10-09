@@ -1,0 +1,4 @@
+include ':app'
+rootProject.name = "RAVINI"
+
+apply from: 'capacitor.settings.gradle'

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">RAVINI</string>
+    <string name="title_activity_main">RAVINI</string>
+    <string name="package_name">com.ravini.app</string>
+    <string name="custom_url_scheme">ravini</string>
+</resources>

@@ -1,0 +1,316 @@
+{
+  "users": [
+    {
+      "id": "usr_1790082477576_aokus",
+      "firstName": "Juma",
+      "lastName": "Rashid",
+      "name": "Juma Rashid",
+      "phone": "0712345678",
+      "password": "$2b$10$pNNBmvgCKV69HfwsebE1ROTYFLQ7.QWcwcRkvig96CKBNr6klV/1W",
+      "role": "CUSTOMER",
+      "businessName": "Rashid Electronics",
+      "businessApproved": true,
+      "permissions": [],
+      "status": "ACTIVE",
+      "walletBalance": 49,
+      "createdAt": "2026-09-22T13:07:57.576Z",
+      "updatedAt": "2026-09-22T14:11:58.255Z",
+      "businessCategory": "sokoni"
+    },
+    {
+      "id": "usr_baraka_mabula",
+      "firstName": "Baraka",
+      "lastName": "Mabula",
+      "name": "Baraka Mabula",
+      "phone": "255748604483",
+      "password": "$2b$10$MCG7k0JWFOHdjKP5aB3B9.7fqNFA0uwx61bsl2DJEd1yY0XKBk9NW",
+      "role": "SUPER_ADMIN",
+      "businessApproved": true,
+      "permissions": [
+        "REVIEW_APPLICATIONS",
+        "REVIEW_ADS",
+        "REVIEW_MOVIES",
+        "MODERATE_CONTENT",
+        "VIEW_REPORTS"
+      ],
+      "status": "ACTIVE",
+      "walletBalance": 0,
+      "createdAt": "2026-09-22T13:07:44.701Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": "app_1790082490123_vqpsp",
+      "userId": "usr_1790082477576_aokus",
+      "userName": "Juma Rashid",
+      "userPhone": "0712345678",
+      "category": "sokoni",
+      "businessName": "Rashid Electronics",
+      "description": "Tunauza vifaa vya kielektroniki, simu na kompyuta",
+      "servicesOrProducts": "Smartphones, Laptops, Accessories",
+      "contactPhone": "0712345678",
+      "location": "Kariakoo, Dar es Salaam",
+      "status": "APPROVED",
+      "submittedAt": "2026-09-22T13:08:10.123Z",
+      "reviewedAt": "2026-09-22T13:08:13.309Z",
+      "reviewedBy": "Baraka Mabula",
+      "reviewedByRole": "SUPER_ADMIN"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_1790082505823_fj41l",
+      "vendorId": "usr_1790082477576_aokus",
+      "vendorName": "Juma Rashid",
+      "vendorPhone": "0712345678",
+      "title": "Samsung Galaxy S22 Ultra",
+      "description": "512GB Storage, 12GB RAM, Phantom Black, Brand New in Box",
+      "priceTzs": 1850000,
+      "category": "Simu",
+      "images": [],
+      "status": "APPROVED",
+      "createdAt": "2026-09-22T13:08:25.823Z",
+      "reviewedAt": "2026-09-22T13:09:08.832Z",
+      "reviewedBy": "Baraka Mabula"
+    }
+  ],
+  "ads": [],
+  "movies": [],
+  "fundis": [],
+  "transactions": [
+    {
+      "id": "tx_1790086318255_trnhr",
+      "userId": "usr_1790082477576_aokus",
+      "userName": "Juma Rashid",
+      "actorId": "usr_baraka_mabula",
+      "actorName": "Baraka Mabula",
+      "actorRole": "SUPER_ADMIN",
+      "type": "MANUAL_TOP_UP",
+      "amount": 1,
+      "balanceBefore": 48,
+      "balanceAfter": 49,
+      "reference": "RESTORE_1790086318255",
+      "reason": "Restoring verified test credit",
+      "timestamp": "2026-09-22T14:11:58.255Z"
+    },
+    {
+      "id": "tx_1790086318254_l8kfu",
+      "userId": "usr_1790082477576_aokus",
+      "userName": "Juma Rashid",
+      "actorId": "usr_1790082477576_aokus",
+      "actorName": "Juma Rashid",
+      "actorRole": "CUSTOMER",
+      "type": "DEDUCTION",
+      "amount": 1,
+      "balanceBefore": 49,
+      "balanceAfter": 48,
+      "reference": "IDEMP_VERIFY_1790086318254",
+      "reason": "Idempotency verification 1",
+      "timestamp": "2026-09-22T14:11:58.254Z"
+    },
+    {
+      "id": "tx_1790086305186_43m9u",
+      "userId": "usr_1790082477576_aokus",
+      "userName": "Juma Rashid",
+      "actorId": "usr_baraka_mabula",
+      "actorName": "Baraka Mabula",
+      "actorRole": "SUPER_ADMIN",
+      "type": "MANUAL_TOP_UP",
+      "amount": 1,
+      "balanceBefore": 48,
+      "balanceAfter": 49,
+      "reference": "RESTORE_1790086305186",
+      "reason": "Restoring verified test credit",
+      "timestamp": "2026-09-22T14:11:45.186Z"
+    },
+    {
+      "id": "tx_1790086305185_t4plw",
+      "userId": "usr_1790082477576_aokus",
+      "userName": "Juma Rashid",
+      "actorId": "usr_1790082477576_aokus",
+      "actorName": "Juma Rashid",
+      "actorRole": "CUSTOMER",
+      "type": "DEDUCTION",
+      "amount": 1,
+      "balanceBefore": 49,
+      "balanceAfter": 48,
+      "reference": "IDEMP_VERIFY_1790086305184",
+      "reason": "Idempotency verification 1",
+      "timestamp": "2026-09-22T14:11:45.185Z"
+    },
+    {
+      "id": "tx_1790082505823_qbw7w",
+      "userId": "usr_1790082477576_aokus",
+      "userName": "Juma Rashid",
+      "actorId": "usr_1790082477576_aokus",
+      "actorName": "Juma Rashid",
+      "actorRole": "CUSTOMER",
+      "type": "DEDUCTION",
+      "amount": 1,
+      "balanceBefore": 50,
+      "balanceAfter": 49,
+      "reference": "SOKONI-1790082505823",
+      "reason": "Malipo ya kuchapisha bidhaa Sokoni: Samsung Galaxy S22 Ultra",
+      "relatedAction": "publish_product",
+      "timestamp": "2026-09-22T13:08:25.823Z"
+    },
+    {
+      "id": "tx_1790082483872_5ihp8",
+      "userId": "usr_1790082477576_aokus",
+      "userName": "Juma Rashid",
+      "actorId": "usr_baraka_mabula",
+      "actorName": "Baraka Mabula",
+      "actorRole": "SUPER_ADMIN",
+      "type": "MANUAL_TOP_UP",
+      "amount": 50,
+      "balanceBefore": 0,
+      "balanceAfter": 50,
+      "reference": "QW998822",
+      "reason": "Uthibitisho wa malipo ya WhatsApp: M-Pesa (QW998822) - Malipo ya WhatsApp yaliyothibitishwa",
+      "timestamp": "2026-09-22T13:08:03.872Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "actorId": "usr_baraka_mabula",
+      "actorName": "Baraka Mabula",
+      "actorRole": "SUPER_ADMIN",
+      "action": "USER_LOGIN",
+      "target": "User:usr_baraka_mabula",
+      "targetId": "usr_baraka_mabula",
+      "details": "User Baraka Mabula logged in with role SUPER_ADMIN",
+      "id": "audit_1790083269007_hldh1",
+      "timestamp": "2026-09-22T13:21:09.007Z"
+    },
+    {
+      "actorId": "usr_baraka_mabula",
+      "actorName": "Baraka Mabula",
+      "actorRole": "SUPER_ADMIN",
+      "action": "APPROVE_CONTENT",
+      "target": "product:prod_1790082505823_fj41l",
+      "targetId": "prod_1790082505823_fj41l",
+      "details": "SUPER_ADMIN Baraka Mabula approved product prod_1790082505823_fj41l",
+      "id": "audit_1790082548833_mqp2e",
+      "timestamp": "2026-09-22T13:09:08.833Z"
+    },
+    {
+      "actorId": "usr_baraka_mabula",
+      "actorName": "Baraka Mabula",
+      "actorRole": "SUPER_ADMIN",
+      "action": "APPROVE_BUSINESS_APPLICATION",
+      "target": "Application:app_1790082490123_vqpsp",
+      "targetId": "app_1790082490123_vqpsp",
+      "details": "SUPER_ADMIN Baraka Mabula approved application for Juma Rashid (sokoni)",
+      "id": "audit_1790082493310_graoj",
+      "timestamp": "2026-09-22T13:08:13.310Z"
+    },
+    {
+      "actorId": "usr_1790082477576_aokus",
+      "actorName": "Juma Rashid",
+      "actorRole": "CUSTOMER",
+      "action": "BUSINESS_APPLICATION_SUBMITTED",
+      "target": "Application:app_1790082490123_vqpsp",
+      "targetId": "app_1790082490123_vqpsp",
+      "details": "Customer Juma Rashid applied for sokoni business (Rashid Electronics)",
+      "id": "audit_1790082490124_djisq",
+      "timestamp": "2026-09-22T13:08:10.124Z"
+    },
+    {
+      "actorId": "usr_baraka_mabula",
+      "actorName": "Baraka Mabula",
+      "actorRole": "SUPER_ADMIN",
+      "action": "MANUAL_CREDIT_TOPUP",
+      "target": "User:usr_1790082477576_aokus",
+      "targetId": "usr_1790082477576_aokus",
+      "details": "Super Admin Baraka Mabula credited 50 credits to Juma Rashid. Prev: 0, New: 50. Ref: QW998822",
+      "id": "audit_1790082483894_d7av5",
+      "timestamp": "2026-09-22T13:08:03.894Z"
+    },
+    {
+      "actorId": "usr_1790082477576_aokus",
+      "actorName": "Juma Rashid",
+      "actorRole": "CUSTOMER",
+      "action": "CUSTOMER_REGISTRATION",
+      "target": "User:usr_1790082477576_aokus",
+      "targetId": "usr_1790082477576_aokus",
+      "details": "Customer Juma Rashid registered with phone 0712345678",
+      "id": "audit_1790082477576_137s0",
+      "timestamp": "2026-09-22T13:07:57.576Z"
+    },
+    {
+      "actorId": "usr_baraka_mabula",
+      "actorName": "Baraka Mabula",
+      "actorRole": "SUPER_ADMIN",
+      "action": "USER_LOGIN",
+      "target": "User:usr_baraka_mabula",
+      "targetId": "usr_baraka_mabula",
+      "details": "User Baraka Mabula logged in with role SUPER_ADMIN",
+      "id": "audit_1790082474994_8wbjo",
+      "timestamp": "2026-09-22T13:07:54.994Z"
+    }
+  ],
+  "notifications": [
+    {
+      "userId": "usr_1790082477576_aokus",
+      "title": "Bidhaa Yako Imeidhinishwa!",
+      "message": "Bidhaa yako \"Samsung Galaxy S22 Ultra\" imeidhinishwa na sasa inaonekana Sokoni.",
+      "type": "content",
+      "id": "notif_1790082548833_u6cfo",
+      "read": false,
+      "createdAt": "2026-09-22T13:09:08.833Z"
+    },
+    {
+      "userId": "usr_1790082477576_aokus",
+      "title": "Hongera! Maombi Yako Yameidhinishwa",
+      "message": "Maombi yako ya kuwa SOKONI (Rashid Electronics) yameidhinishwa na Msimamizi (Baraka Mabula). Sasa unaweza kuanza kutumia huduma za kibiashara!",
+      "type": "application",
+      "id": "notif_1790082493310_fgmw9",
+      "read": false,
+      "createdAt": "2026-09-22T13:08:13.310Z"
+    },
+    {
+      "userId": "usr_1790082477576_aokus",
+      "title": "Maombi ya Biashara Yametumwa",
+      "message": "Maombi yako ya kuwa SOKONI (Rashid Electronics) yamepokelewa na yanakaguliwa na Wasimamizi.",
+      "type": "application",
+      "id": "notif_1790082490124_06n39",
+      "read": false,
+      "createdAt": "2026-09-22T13:08:10.124Z"
+    },
+    {
+      "userId": "usr_1790082477576_aokus",
+      "title": "Credits Zimeongezwa!",
+      "message": "Hongera! Msimamizi Mkuu amekuongezea Credits 50 kwenye pochi yako. Salio jipya: Credits 50.",
+      "type": "credits",
+      "id": "notif_1790082483893_gz4cr",
+      "read": false,
+      "createdAt": "2026-09-22T13:08:03.893Z"
+    }
+  ],
+  "config": {
+    "platformName": "RAVINI",
+    "companyName": "RAVINI COMPANY LIMITED",
+    "whatsappNumber": "255748604483",
+    "postPriceCredits": 1,
+    "videoPriceCredits": 2,
+    "moviePriceCredits": 3,
+    "bundles": [
+      {
+        "credits": 50,
+        "priceTzs": 5000,
+        "label": "50 Credits (TZS 5,000)"
+      },
+      {
+        "credits": 100,
+        "priceTzs": 10000,
+        "label": "100 Credits (TZS 10,000)"
+      },
+      {
+        "credits": 250,
+        "priceTzs": 20000,
+        "label": "250 Credits (TZS 20,000)"
+      }
+    ],
+    "termsAndConditions": "Jukwaa la RAVINI linaendeshwa na RAVINI COMPANY LIMITED nchini Tanzania. Malipo yote ya kuongeza salio la credits hufanyika moja kwa moja kwa uthibitisho wa manual kupitia WhatsApp rasmi ya Msimamizi Mkuu."
+  }
+}

@@ -1,0 +1,279 @@
+[
+  {
+    "id": "bup_pre_cloudsql_1790417015426",
+    "filename": "nmy_prod_backup_pre_cloudsql_2026-09-26T10-03-30-387Z.json",
+    "filePath": "/app/applet/data/backups/nmy_prod_backup_pre_cloudsql_2026-09-26T10-03-30-387Z.json",
+    "sizeBytes": 29912,
+    "sha256Checksum": "98ecafcf091728e0f37ae8e2d4edeba83a7b18531776d769a3176eb61e15b091",
+    "timestamp": "2026-09-26T10:03:35.426Z",
+    "environment": "PRODUCTION",
+    "databaseIdentity": "NIDA_MITANDAO_YOTE_PROD_DB",
+    "isVerified": true,
+    "verifiedAt": "2026-09-26T10:03:35.426Z",
+    "reason": "PRE_CLOUDSQL_MIGRATION_SAFETY_FREEZE",
+    "recordCounts": {
+      "users": 2,
+      "activeUsers": 2,
+      "disabledUsers": 0,
+      "requests": 1,
+      "creditAccounts": 2,
+      "creditLedger": 1,
+      "creditRequests": 0,
+      "auditLogs": 31,
+      "sessions": 22,
+      "files": 0,
+      "services": 1
+    },
+    "status": "VERIFIED_IMMUTABLE"
+  },
+  {
+    "id": "bup_1790415821334_indym",
+    "filename": "nmy_prod_backup_2026-09-26T09-43-41-333Z.json",
+    "filePath": "/app/applet/data/backups/nmy_prod_backup_2026-09-26T09-43-41-333Z.json",
+    "sizeBytes": 29912,
+    "sha256Checksum": "98ecafcf091728e0f37ae8e2d4edeba83a7b18531776d769a3176eb61e15b091",
+    "timestamp": "2026-09-26T09:43:41.333Z",
+    "environment": "PRODUCTION",
+    "databaseIdentity": "NIDA_MITANDAO_YOTE_PROD_DB",
+    "isVerified": true,
+    "verifiedAt": "2026-09-26T09:43:41.334Z",
+    "recordCounts": {
+      "users": 2,
+      "requests": 1,
+      "creditLedger": 1,
+      "creditRequests": 0,
+      "auditLogs": 31
+    },
+    "status": "VERIFIED"
+  },
+  {
+    "id": "bup_1790344476361_final",
+    "filename": "nmy_prod_backup_pre_final_cleanup_2026-09-25T13-54-36-359Z.json",
+    "filePath": "/app/applet/data/backups/nmy_prod_backup_pre_final_cleanup_2026-09-25T13-54-36-359Z.json",
+    "reason": "PRE_FINAL_SECURITY_CLEANUP_SNAPSHOT",
+    "sha256": "b4b11cc22b7484a5d0170511d2aafced163b7270e5a7dce5a5abcf29a4998b60",
+    "sizeBytes": 30524,
+    "createdAt": "2026-09-25T13:54:36.361Z",
+    "isVerified": true
+  },
+  {
+    "id": "bup_1790338747963_x6swm",
+    "filename": "nmy_prod_backup_2026-09-25T12-19-07-962Z.json",
+    "filePath": "/app/applet/data/backups/nmy_prod_backup_2026-09-25T12-19-07-962Z.json",
+    "sizeBytes": 30524,
+    "sha256Checksum": "b4b11cc22b7484a5d0170511d2aafced163b7270e5a7dce5a5abcf29a4998b60",
+    "timestamp": "2026-09-25T12:19:07.962Z",
+    "environment": "PRODUCTION",
+    "databaseIdentity": "NIDA_MITANDAO_YOTE_PROD_DB",
+    "isVerified": true,
+    "verifiedAt": "2026-09-25T12:19:07.963Z",
+    "recordCounts": {
+      "users": 4,
+      "requests": 1,
+      "creditLedger": 1,
+      "creditRequests": 0,
+      "auditLogs": 30
+    },
+    "status": "VERIFIED"
+  },
+  {
+    "id": "bup_1790338735048_dzazv",
+    "filename": "nmy_prod_backup_2026-09-25T12-18-55-047Z.json",
+    "filePath": "/app/applet/data/backups/nmy_prod_backup_2026-09-25T12-18-55-047Z.json",
+    "sizeBytes": 30524,
+    "sha256Checksum": "b4b11cc22b7484a5d0170511d2aafced163b7270e5a7dce5a5abcf29a4998b60",
+    "timestamp": "2026-09-25T12:18:55.047Z",
+    "environment": "PRODUCTION",
+    "databaseIdentity": "NIDA_MITANDAO_YOTE_PROD_DB",
+    "isVerified": true,
+    "verifiedAt": "2026-09-25T12:18:55.048Z",
+    "recordCounts": {
+      "users": 4,
+      "requests": 1,
+      "creditLedger": 1,
+      "creditRequests": 0,
+      "auditLogs": 30
+    },
+    "status": "VERIFIED"
+  },
+  {
+    "id": "bup_1790338609075_vblms",
+    "filename": "nmy_prod_backup_2026-09-25T12-16-49-074Z.json",
+    "filePath": "/app/applet/data/backups/nmy_prod_backup_2026-09-25T12-16-49-074Z.json",
+    "sizeBytes": 22948,
+    "sha256Checksum": "e13a3f3819749b13fd8b95996ed235ab981c0bdf0c5409a18c67c661ae9e5a13",
+    "timestamp": "2026-09-25T12:16:49.074Z",
+    "environment": "PRODUCTION",
+    "databaseIdentity": "NIDA_MITANDAO_YOTE_PROD_DB",
+    "isVerified": true,
+    "verifiedAt": "2026-09-25T12:16:49.075Z",
+    "recordCounts": {
+      "users": 3,
+      "requests": 1,
+      "creditLedger": 1,
+      "creditRequests": 0,
+      "auditLogs": 20
+    },
+    "status": "VERIFIED"
+  },
+  {
+    "id": "bup_1790338516696_973mp",
+    "filename": "nmy_prod_backup_2026-09-25T12-15-16-695Z.json",
+    "filePath": "/app/applet/data/backups/nmy_prod_backup_2026-09-25T12-15-16-695Z.json",
+    "sizeBytes": 21997,
+    "sha256Checksum": "46d3c361dd654d4d7f65272b8df7295a82edc18406b200e59c13b2e39f9008a8",
+    "timestamp": "2026-09-25T12:15:16.695Z",
+    "environment": "PRODUCTION",
+    "databaseIdentity": "NIDA_MITANDAO_YOTE_PROD_DB",
+    "isVerified": true,
+    "verifiedAt": "2026-09-25T12:15:16.696Z",
+    "recordCounts": {
+      "users": 3,
+      "requests": 1,
+      "creditLedger": 1,
+      "creditRequests": 0,
+      "auditLogs": 18
+    },
+    "status": "VERIFIED"
+  },
+  {
+    "id": "bup_1790338249967_xus4x",
+    "filename": "nmy_prod_backup_2026-09-25T12-10-49-967Z.json",
+    "filePath": "/app/applet/data/backups/nmy_prod_backup_2026-09-25T12-10-49-967Z.json",
+    "sizeBytes": 21237,
+    "sha256Checksum": "8ad7912423102aef52df16581d0b407009e4e12a24f0268ff3353d4c66863265",
+    "timestamp": "2026-09-25T12:10:49.967Z",
+    "environment": "PRODUCTION",
+    "databaseIdentity": "NIDA_MITANDAO_YOTE_PROD_DB",
+    "isVerified": true,
+    "verifiedAt": "2026-09-25T12:10:49.967Z",
+    "recordCounts": {
+      "users": 3,
+      "requests": 1,
+      "creditLedger": 1,
+      "creditRequests": 0,
+      "auditLogs": 17
+    },
+    "status": "VERIFIED"
+  },
+  {
+    "id": "bup_1790338244970_a8009",
+    "filename": "nmy_prod_backup_2026-09-25T12-10-44-969Z.json",
+    "filePath": "/app/applet/data/backups/nmy_prod_backup_2026-09-25T12-10-44-969Z.json",
+    "sizeBytes": 21237,
+    "sha256Checksum": "8ad7912423102aef52df16581d0b407009e4e12a24f0268ff3353d4c66863265",
+    "timestamp": "2026-09-25T12:10:44.969Z",
+    "environment": "PRODUCTION",
+    "databaseIdentity": "NIDA_MITANDAO_YOTE_PROD_DB",
+    "isVerified": true,
+    "verifiedAt": "2026-09-25T12:10:44.970Z",
+    "recordCounts": {
+      "users": 3,
+      "requests": 1,
+      "creditLedger": 1,
+      "creditRequests": 0,
+      "auditLogs": 17
+    },
+    "status": "VERIFIED"
+  },
+  {
+    "id": "bup_1790338138134_el0nr",
+    "filename": "nmy_prod_backup_2026-09-25T12-08-58-133Z.json",
+    "filePath": "/app/applet/data/backups/nmy_prod_backup_2026-09-25T12-08-58-133Z.json",
+    "sizeBytes": 17118,
+    "sha256Checksum": "cda9e4153e7849835a38d325a575defe759a3b7763cc118977a203e50427fd3a",
+    "timestamp": "2026-09-25T12:08:58.133Z",
+    "environment": "PRODUCTION",
+    "databaseIdentity": "NIDA_MITANDAO_YOTE_PROD_DB",
+    "isVerified": true,
+    "verifiedAt": "2026-09-25T12:08:58.134Z",
+    "recordCounts": {
+      "users": 3,
+      "requests": 1,
+      "creditLedger": 1,
+      "creditRequests": 0,
+      "auditLogs": 13
+    },
+    "status": "VERIFIED"
+  },
+  {
+    "id": "bup_1790338120736_bpvyv",
+    "filename": "nmy_prod_backup_2026-09-25T12-08-40-735Z.json",
+    "filePath": "/app/applet/data/backups/nmy_prod_backup_2026-09-25T12-08-40-735Z.json",
+    "sizeBytes": 11850,
+    "sha256Checksum": "de83f05fe713a39d5bd3531337e271a4c5de79465e65a0c5f835425614cce605",
+    "timestamp": "2026-09-25T12:08:40.735Z",
+    "environment": "PRODUCTION",
+    "databaseIdentity": "NIDA_MITANDAO_YOTE_PROD_DB",
+    "isVerified": true,
+    "verifiedAt": "2026-09-25T12:08:40.736Z",
+    "recordCounts": {
+      "users": 3,
+      "requests": 0,
+      "creditLedger": 0,
+      "creditRequests": 0,
+      "auditLogs": 9
+    },
+    "status": "VERIFIED"
+  },
+  {
+    "id": "bup_1790338069181_r92vr",
+    "filename": "nmy_prod_backup_2026-09-25T12-07-49-180Z.json",
+    "filePath": "/app/applet/data/backups/nmy_prod_backup_2026-09-25T12-07-49-180Z.json",
+    "sizeBytes": 6403,
+    "sha256Checksum": "db6dc0ae8e9e35c60a8987947ad562bfa5a4c7710ba62c8be1916c4b50503485",
+    "timestamp": "2026-09-25T12:07:49.180Z",
+    "environment": "PRODUCTION",
+    "databaseIdentity": "NIDA_MITANDAO_YOTE_PROD_DB",
+    "isVerified": true,
+    "verifiedAt": "2026-09-25T12:07:49.181Z",
+    "recordCounts": {
+      "users": 3,
+      "requests": 0,
+      "creditLedger": 0,
+      "creditRequests": 0,
+      "auditLogs": 2
+    },
+    "status": "VERIFIED"
+  },
+  {
+    "id": "bup_1790336844311_7wx0u",
+    "filename": "nmy_prod_backup_2026-09-25T11-47-24-311Z.json",
+    "filePath": "/app/applet/data/backups/nmy_prod_backup_2026-09-25T11-47-24-311Z.json",
+    "sizeBytes": 4251,
+    "sha256Checksum": "bf30658e565484142a1c0aaf4cb5f1ac2372b05df87cf2f7a3cc1928955f54e1",
+    "timestamp": "2026-09-25T11:47:24.311Z",
+    "environment": "PRODUCTION",
+    "databaseIdentity": "NIDA_MITANDAO_YOTE_PROD_DB",
+    "isVerified": true,
+    "verifiedAt": "2026-09-25T11:47:24.312Z",
+    "recordCounts": {
+      "users": 1,
+      "requests": 0,
+      "creditLedger": 0,
+      "creditRequests": 0,
+      "auditLogs": 1
+    },
+    "status": "VERIFIED"
+  },
+  {
+    "id": "bup_1790336830207_pfqv2",
+    "filename": "nmy_prod_backup_2026-09-25T11-47-10-207Z.json",
+    "filePath": "/app/applet/data/backups/nmy_prod_backup_2026-09-25T11-47-10-207Z.json",
+    "sizeBytes": 4251,
+    "sha256Checksum": "bf30658e565484142a1c0aaf4cb5f1ac2372b05df87cf2f7a3cc1928955f54e1",
+    "timestamp": "2026-09-25T11:47:10.207Z",
+    "environment": "PRODUCTION",
+    "databaseIdentity": "NIDA_MITANDAO_YOTE_PROD_DB",
+    "isVerified": true,
+    "verifiedAt": "2026-09-25T11:47:10.207Z",
+    "recordCounts": {
+      "users": 1,
+      "requests": 0,
+      "creditLedger": 0,
+      "creditRequests": 0,
+      "auditLogs": 1
+    },
+    "status": "VERIFIED"
+  }
+]

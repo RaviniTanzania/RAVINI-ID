@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="ravini-red" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EF4444" />
+      <stop offset="100%" stop-color="#B91C1C" />
+    </linearGradient>
+    <linearGradient id="ravini-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#EAB308" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded squircle (RED) -->
+  <rect width="512" height="512" rx="112" fill="url(#ravini-red)" />
+  
+  <!-- Outer subtle gold/yellow ring accent -->
+  <rect x="20" y="20" width="472" height="472" rx="96" fill="none" stroke="url(#ravini-gold)" stroke-width="6" stroke-opacity="0.5" />
+
+  <!-- Center RAVINI 'R' Symbol in crisp White -->
+  <g filter="url(#shadow)">
+    <!-- Central Modern Stylized R with forward motion -->
+    <path d="M 160 120 
+             L 280 120 
+             C 340 120 376 150 376 204 
+             C 376 248 344 278 296 286 
+             L 378 392 
+             L 310 392 
+             L 238 294 
+             L 218 294 
+             L 218 392 
+             L 160 392 
+             Z 
+             M 218 172 
+             L 218 244 
+             L 272 244 
+             C 304 244 320 228 320 208 
+             C 320 188 304 172 272 172 
+             Z" 
+          fill="#FFFFFF" />
+  </g>
+
+  <!-- Vibrant Yellow Sparkle / Crest at top right -->
+  <circle cx="366" cy="136" r="24" fill="url(#ravini-gold)" />
+  <path d="M 366 104 L 372 130 L 398 136 L 372 142 L 366 168 L 360 142 L 334 136 L 360 130 Z" fill="#FFFFFF" />
+</svg>

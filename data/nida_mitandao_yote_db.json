@@ -1,0 +1,846 @@
+{
+  "users": [
+    {
+      "id": "usr_canonical_super_admin",
+      "phone": "255748604483",
+      "fullName": "Baraka Mabula",
+      "password": "$2b$10$jVtFTR9I3z0XGSHBAF7kge07jeUDq51.9e.krZ/ucxGdNyo9rcmGe",
+      "role": "SUPER_ADMIN",
+      "status": "ACTIVE",
+      "permissions": [
+        "ALL",
+        "MANAGE_USERS",
+        "MANAGE_ADMINS",
+        "MANAGE_SERVICES",
+        "MANAGE_CREDIT",
+        "PROCESS_REQUESTS",
+        "VIEW_AUDIT"
+      ],
+      "language": "sw",
+      "mustChangePassword": false,
+      "createdAt": "2026-09-24T11:06:42.623Z",
+      "updatedAt": "2026-09-25T12:17:22.795Z",
+      "lastLoginAt": "2026-09-25T12:17:22.795Z"
+    },
+    {
+      "id": "usr_1790338642542_pj3hc",
+      "phone": "255766123456",
+      "fullName": "Juma Hamisi",
+      "password": "$2b$10$jADsPghdW35/8o2iTcaekuJVfW0/fa2WB.XSCwpaNxhL1YP7GzI/.",
+      "role": "CUSTOMER",
+      "status": "ACTIVE",
+      "permissions": [],
+      "language": "sw",
+      "mustChangePassword": false,
+      "createdAt": "2026-09-25T12:17:22.542Z",
+      "updatedAt": "2026-09-25T12:17:48.178Z",
+      "lastLoginAt": "2026-09-25T12:17:48.178Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "sess_1790338028021_43264",
+      "token": "nmy_tok_1790338028021_po5hym10ff",
+      "userId": "usr_canonical_super_admin",
+      "role": "SUPER_ADMIN",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:07:08.021Z",
+      "expiresAt": "2026-09-26T12:07:08.021Z",
+      "isRevoked": true
+    },
+    {
+      "id": "sess_1790338070585_9bcdz",
+      "token": "nmy_tok_1790338070585_nw8wd0t5c5",
+      "userId": "usr_canonical_super_admin",
+      "role": "SUPER_ADMIN",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:07:50.585Z",
+      "expiresAt": "2026-09-26T12:07:50.585Z",
+      "isRevoked": true
+    },
+    {
+      "id": "sess_1790338070715_2j00p",
+      "token": "nmy_tok_1790338070715_vxivuwewnp",
+      "userId": "usr_canonical_admin_ops",
+      "role": "ADMIN",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:07:50.716Z",
+      "expiresAt": "2026-09-26T12:07:50.715Z",
+      "isRevoked": true
+    },
+    {
+      "id": "sess_1790338070847_j5f98",
+      "token": "nmy_tok_1790338070847_ke593y5va4",
+      "userId": "usr_canonical_customer_test",
+      "role": "CUSTOMER",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:07:50.847Z",
+      "expiresAt": "2026-09-26T12:07:50.847Z",
+      "isRevoked": true
+    },
+    {
+      "id": "sess_1790338078907_mnaoc",
+      "token": "nmy_tok_1790338078907_b8n3i8orokd",
+      "userId": "usr_canonical_customer_test",
+      "role": "CUSTOMER",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:07:58.907Z",
+      "expiresAt": "2026-09-26T12:07:58.907Z",
+      "isRevoked": true
+    },
+    {
+      "id": "sess_1790338082890_c6ftz",
+      "token": "nmy_tok_1790338082890_ftkb1nqqiv6",
+      "userId": "usr_canonical_customer_test",
+      "role": "CUSTOMER",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:08:02.890Z",
+      "expiresAt": "2026-09-26T12:08:02.890Z",
+      "isRevoked": true
+    },
+    {
+      "id": "sess_1790338092187_3wx4s",
+      "token": "nmy_tok_1790338092187_xbz3wdnvpge",
+      "userId": "usr_canonical_customer_test",
+      "role": "CUSTOMER",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:08:12.187Z",
+      "expiresAt": "2026-09-26T12:08:12.187Z",
+      "isRevoked": true
+    },
+    {
+      "id": "sess_1790338115154_v304n",
+      "token": "nmy_tok_1790338115154_y9mluqy3xt",
+      "userId": "usr_canonical_customer_test",
+      "role": "CUSTOMER",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:08:35.154Z",
+      "expiresAt": "2026-09-26T12:08:35.154Z",
+      "isRevoked": true
+    },
+    {
+      "id": "sess_1790338121844_lk9su",
+      "token": "nmy_tok_1790338121844_hzcr56ty9ge",
+      "userId": "usr_canonical_customer_test",
+      "role": "CUSTOMER",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:08:41.844Z",
+      "expiresAt": "2026-09-26T12:08:41.844Z",
+      "isRevoked": true
+    },
+    {
+      "id": "sess_1790338128153_w3dr7",
+      "token": "nmy_tok_1790338128153_gqixw08qedg",
+      "userId": "usr_canonical_admin_ops",
+      "role": "ADMIN",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:08:48.154Z",
+      "expiresAt": "2026-09-26T12:08:48.153Z",
+      "isRevoked": true
+    },
+    {
+      "id": "sess_1790338141771_sx5zy",
+      "token": "nmy_tok_1790338141771_pryht4151np",
+      "userId": "usr_canonical_admin_ops",
+      "role": "ADMIN",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:09:01.771Z",
+      "expiresAt": "2026-09-26T12:09:01.771Z",
+      "isRevoked": true
+    },
+    {
+      "id": "sess_1790338149578_jp20s",
+      "token": "nmy_tok_1790338149578_x3czinuwfo8",
+      "userId": "usr_canonical_customer_test",
+      "role": "CUSTOMER",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:09:09.578Z",
+      "expiresAt": "2026-09-26T12:09:09.578Z",
+      "isRevoked": true
+    },
+    {
+      "id": "sess_1790338154742_q51c1",
+      "token": "nmy_tok_1790338154742_8dch1ass7mh",
+      "userId": "usr_canonical_customer_test",
+      "role": "CUSTOMER",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:09:14.742Z",
+      "expiresAt": "2026-09-26T12:09:14.742Z",
+      "isRevoked": true
+    },
+    {
+      "id": "sess_1790338516669_9diay",
+      "token": "nmy_tok_1790338516669_ui3hg4lizw",
+      "userId": "usr_canonical_super_admin",
+      "role": "SUPER_ADMIN",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:15:16.669Z",
+      "expiresAt": "2026-09-26T12:15:16.669Z",
+      "isRevoked": true
+    },
+    {
+      "id": "sess_1790338617140_de7ds",
+      "token": "nmy_tok_1790338617139_4cc1jmsuefn",
+      "userId": "usr_canonical_super_admin",
+      "role": "SUPER_ADMIN",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:16:57.140Z",
+      "expiresAt": "2026-09-26T12:16:57.139Z",
+      "isRevoked": true
+    },
+    {
+      "id": "sess_1790338628725_9vtej",
+      "token": "nmy_tok_1790338628725_scec6afvoqk",
+      "userId": "usr_canonical_super_admin",
+      "role": "SUPER_ADMIN",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:17:08.725Z",
+      "expiresAt": "2026-09-26T12:17:08.725Z",
+      "isRevoked": true
+    },
+    {
+      "id": "sess_1790338628856_51fxe",
+      "token": "nmy_tok_1790338628856_7zsqtt9r4qu",
+      "userId": "usr_canonical_super_admin",
+      "role": "SUPER_ADMIN",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:17:08.857Z",
+      "expiresAt": "2026-09-26T12:17:08.856Z",
+      "isRevoked": true
+    },
+    {
+      "id": "sess_1790338628977_hued6",
+      "token": "nmy_tok_1790338628977_a5xfzyl76nw",
+      "userId": "usr_canonical_super_admin",
+      "role": "SUPER_ADMIN",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:17:08.977Z",
+      "expiresAt": "2026-09-26T12:17:08.977Z",
+      "isRevoked": false
+    },
+    {
+      "id": "sess_1790338629101_c5p2d",
+      "token": "nmy_tok_1790338629101_pu53z8q1vkp",
+      "userId": "usr_canonical_super_admin",
+      "role": "SUPER_ADMIN",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:17:09.101Z",
+      "expiresAt": "2026-09-26T12:17:09.101Z",
+      "isRevoked": false
+    },
+    {
+      "id": "sess_1790338642668_c95ch",
+      "token": "nmy_tok_1790338642667_6b4rdlkohej",
+      "userId": "usr_1790338642542_pj3hc",
+      "role": "CUSTOMER",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:17:22.668Z",
+      "expiresAt": "2026-09-26T12:17:22.667Z",
+      "isRevoked": true
+    },
+    {
+      "id": "sess_1790338642795_vlvjm",
+      "token": "nmy_tok_1790338642795_p7sn5poj6k9",
+      "userId": "usr_canonical_super_admin",
+      "role": "SUPER_ADMIN",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:17:22.795Z",
+      "expiresAt": "2026-09-26T12:17:22.795Z",
+      "isRevoked": false
+    },
+    {
+      "id": "sess_1790338668178_zkieg",
+      "token": "nmy_tok_1790338668178_djzkf8hl35c",
+      "userId": "usr_1790338642542_pj3hc",
+      "role": "CUSTOMER",
+      "deviceName": "Mobile / Web Device",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-25T12:17:48.178Z",
+      "expiresAt": "2026-09-26T12:17:48.178Z",
+      "isRevoked": true
+    }
+  ],
+  "termsVersions": [
+    {
+      "version": "v1.0",
+      "content": "Vigezo na Masharti ya Huduma ya NIDA MITANDAO YOTE (RAVINI COMPANY LIMITED). Kwa kutumia huduma hii unakubali kwamba taarifa unazoziweka ni halali na unakubaliana na sera zetu za usalama na faragha.",
+      "updatedAt": "2026-09-24T11:06:42.623Z"
+    }
+  ],
+  "termsAcceptances": [
+    {
+      "userId": "usr_1790338642542_pj3hc",
+      "termsVersion": "v1.0",
+      "acceptedAt": "2026-09-25T12:17:22.542Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "srv_nida_mitandao_yote",
+      "code": "NIDA_MITANDAO_YOTE",
+      "name": "NIDA MITANDAO YOTE",
+      "description": "Huduma rasmi ya uthibitishaji na upatikanaji wa namba ya NIDA kwa mitandao yote ya simu Tanzania.",
+      "priceTzs": 100,
+      "isActive": true,
+      "inputRequirement": "10_DIGITS_START_WITH_0",
+      "resultType": "20_DIGIT_NIDA",
+      "updatedAt": "2026-09-24T11:06:42.623Z"
+    }
+  ],
+  "creditAccounts": {
+    "usr_canonical_customer_test": {
+      "userId": "usr_canonical_customer_test",
+      "balanceTzs": 1900,
+      "updatedAt": "2026-09-25T12:08:41.866Z"
+    },
+    "usr_1790338642542_pj3hc": {
+      "userId": "usr_1790338642542_pj3hc",
+      "balanceTzs": 0,
+      "updatedAt": "2026-09-25T12:17:22.542Z"
+    }
+  },
+  "creditLedger": [
+    {
+      "id": "c_led_1790338121866_yfzpn",
+      "userId": "usr_canonical_customer_test",
+      "type": "CHARGE",
+      "amount": 100,
+      "balanceBefore": 2000,
+      "balanceAfter": 1900,
+      "requestId": "NMY-20260925-0KWNJR",
+      "actorId": "usr_canonical_customer_test",
+      "actorName": "Mteja Wa Majaribio NIDA",
+      "actorRole": "CUSTOMER",
+      "reason": "Malipo ya ombi la NIDA kwa namba 0755123456",
+      "reference": "CHARGE_NMY-20260925-0KWNJR",
+      "timestamp": "2026-09-25T12:08:41.866Z"
+    }
+  ],
+  "adminWorkCreditAccounts": {
+    "usr_canonical_admin_ops": {
+      "adminId": "usr_canonical_admin_ops",
+      "balanceTzs": 100,
+      "updatedAt": "2026-09-25T12:09:01.801Z"
+    }
+  },
+  "adminWorkCreditLedger": [
+    {
+      "id": "w_led_1790338141801_3ijgf",
+      "workerId": "usr_canonical_admin_ops",
+      "amount": 100,
+      "balanceBefore": 0,
+      "balanceAfter": 100,
+      "requestId": "NMY-20260925-0KWNJR",
+      "actorId": "usr_canonical_admin_ops",
+      "actorName": "Admin Wa Usindikaji NIDA",
+      "actorRole": "ADMIN",
+      "reason": "Malipo ya kukamilisha ombi la NIDA NMY-20260925-0KWNJR",
+      "reference": "WORK_NMY-20260925-0KWNJR",
+      "timestamp": "2026-09-25T12:09:01.801Z"
+    }
+  ],
+  "superAdminWorkCreditAccounts": {
+    "usr_canonical_super_admin": {
+      "superAdminId": "usr_canonical_super_admin",
+      "balanceTzs": 0,
+      "updatedAt": "2026-09-24T11:06:42.623Z"
+    }
+  },
+  "superAdminWorkCreditLedger": [],
+  "requests": [
+    {
+      "id": "NMY-20260925-0KWNJR",
+      "customerId": "usr_canonical_customer_test",
+      "customerName": "Mteja Wa Majaribio NIDA",
+      "customerPhone": "255788000001",
+      "serviceId": "srv_nida_mitandao_yote",
+      "serviceCode": "NIDA_MITANDAO_YOTE",
+      "serviceName": "NIDA MITANDAO YOTE",
+      "targetPhoneNumber": "0755123456",
+      "chargedPriceTzs": 100,
+      "status": "APPROVED",
+      "refundStatus": "NONE",
+      "createdAt": "2026-09-25T12:08:41.866Z",
+      "updatedAt": "2026-09-25T12:09:01.801Z",
+      "claimedByWorkerId": "usr_canonical_admin_ops",
+      "claimedByWorkerName": "Admin Wa Usindikaji NIDA",
+      "claimedByWorkerRole": "ADMIN",
+      "claimedAt": "2026-09-25T12:08:48.181Z",
+      "nidaResult": "19900101123450000123",
+      "completedAt": "2026-09-25T12:09:01.801Z"
+    }
+  ],
+  "requestEvents": [
+    {
+      "id": "ev_1790338121867_bx3qr",
+      "requestId": "NMY-20260925-0KWNJR",
+      "eventType": "REQUEST_CREATED",
+      "actorId": "usr_canonical_customer_test",
+      "actorName": "Mteja Wa Majaribio NIDA",
+      "actorRole": "CUSTOMER",
+      "details": "Customer submitted request for 0755123456. Charged: TSh 100",
+      "timestamp": "2026-09-25T12:08:41.867Z"
+    },
+    {
+      "id": "ev_1790338128181_kmhzf",
+      "requestId": "NMY-20260925-0KWNJR",
+      "eventType": "REQUEST_CLAIMED",
+      "actorId": "usr_canonical_admin_ops",
+      "actorName": "Admin Wa Usindikaji NIDA",
+      "actorRole": "ADMIN",
+      "details": "Worker Admin Wa Usindikaji NIDA claimed request for processing.",
+      "timestamp": "2026-09-25T12:08:48.181Z"
+    },
+    {
+      "id": "ev_1790338141801_9h18y",
+      "requestId": "NMY-20260925-0KWNJR",
+      "eventType": "REQUEST_APPROVED",
+      "actorId": "usr_canonical_admin_ops",
+      "actorName": "Admin Wa Usindikaji NIDA",
+      "actorRole": "ADMIN",
+      "details": "Worker entered NIDA result and approved request.",
+      "timestamp": "2026-09-25T12:09:01.801Z"
+    }
+  ],
+  "creditRequests": [],
+  "notifications": [
+    {
+      "id": "notif_1790338121867_wm5tk",
+      "userId": "usr_canonical_customer_test",
+      "title": "Ombi Limetumwa",
+      "message": "Ombi lako la NIDA kwa namba 0755123456 limepokelewa na linasubiri usindikaji. Namba ya ombi: NMY-20260925-0KWNJR.",
+      "type": "REQUEST",
+      "read": false,
+      "relatedId": "NMY-20260925-0KWNJR",
+      "createdAt": "2026-09-25T12:08:41.867Z"
+    },
+    {
+      "id": "notif_1790338128181_78h1o",
+      "userId": "usr_canonical_customer_test",
+      "title": "Ombi Linashughulikiwa",
+      "message": "Ombi lako (NMY-20260925-0KWNJR) linafanyiwa kazi sasa na mtoa huduma wetu. Utapata matokeo hivi punde.",
+      "type": "REQUEST",
+      "read": false,
+      "relatedId": "NMY-20260925-0KWNJR",
+      "createdAt": "2026-09-25T12:08:48.181Z"
+    },
+    {
+      "id": "notif_1790338141801_31bsx",
+      "userId": "usr_canonical_customer_test",
+      "title": "NIDA Yako Imepatikana!",
+      "message": "Hongera! Ombi lako (NMY-20260925-0KWNJR) limekamilika. Namba yako ya NIDA ni: 19900101123450000123.",
+      "type": "REQUEST",
+      "read": false,
+      "relatedId": "NMY-20260925-0KWNJR",
+      "createdAt": "2026-09-25T12:09:01.801Z"
+    }
+  ],
+  "announcements": [],
+  "departments": [
+    {
+      "id": "dept_nida_processing",
+      "name": "Kitengo cha Usindikaji wa NIDA",
+      "code": "NIDA_PROCESSING",
+      "description": "Kitengo kinachoshughulikia maombi ya wateja ya namba za NIDA.",
+      "isActive": true,
+      "adminIds": [],
+      "permissions": [
+        "PROCESS_REQUESTS",
+        "APPROVE_REQUESTS",
+        "REJECT_REQUESTS"
+      ],
+      "createdAt": "2026-09-24T11:06:42.623Z",
+      "updatedAt": "2026-09-24T11:06:42.623Z"
+    }
+  ],
+  "files": [],
+  "auditLogs": [
+    {
+      "id": "audit_1790248002623_init",
+      "actorId": "usr_canonical_super_admin",
+      "actorName": "Baraka Mabula",
+      "actorRole": "SUPER_ADMIN",
+      "action": "SYSTEM_INITIALIZATION",
+      "target": "SYSTEM",
+      "details": "NIDA MITANDAO YOTE system initialized with canonical Super Admin (Baraka Mabula). Zero demo data.",
+      "timestamp": "2026-09-24T11:06:42.623Z"
+    },
+    {
+      "actorId": "usr_canonical_super_admin",
+      "actorName": "Baraka Mabula",
+      "actorRole": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "USER:usr_canonical_super_admin",
+      "targetId": "usr_canonical_super_admin",
+      "details": "User logged in with role SUPER_ADMIN",
+      "id": "audit_1790338028023_jitjy",
+      "timestamp": "2026-09-25T12:07:08.023Z"
+    },
+    {
+      "actorId": "usr_canonical_super_admin",
+      "actorName": "Baraka Mabula",
+      "actorRole": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "USER:usr_canonical_super_admin",
+      "targetId": "usr_canonical_super_admin",
+      "details": "User logged in with role SUPER_ADMIN",
+      "id": "audit_1790338070586_g5a77",
+      "timestamp": "2026-09-25T12:07:50.586Z"
+    },
+    {
+      "actorId": "usr_canonical_admin_ops",
+      "actorName": "Admin Wa Usindikaji NIDA",
+      "actorRole": "ADMIN",
+      "action": "LOGIN",
+      "target": "USER:usr_canonical_admin_ops",
+      "targetId": "usr_canonical_admin_ops",
+      "details": "User logged in with role ADMIN",
+      "id": "audit_1790338070716_fucie",
+      "timestamp": "2026-09-25T12:07:50.716Z"
+    },
+    {
+      "actorId": "usr_canonical_customer_test",
+      "actorName": "Mteja Wa Majaribio NIDA",
+      "actorRole": "CUSTOMER",
+      "action": "LOGIN",
+      "target": "USER:usr_canonical_customer_test",
+      "targetId": "usr_canonical_customer_test",
+      "details": "User logged in with role CUSTOMER",
+      "id": "audit_1790338070848_vmmqy",
+      "timestamp": "2026-09-25T12:07:50.848Z"
+    },
+    {
+      "actorId": "usr_canonical_customer_test",
+      "actorName": "Mteja Wa Majaribio NIDA",
+      "actorRole": "CUSTOMER",
+      "action": "LOGIN",
+      "target": "USER:usr_canonical_customer_test",
+      "targetId": "usr_canonical_customer_test",
+      "details": "User logged in with role CUSTOMER",
+      "id": "audit_1790338078908_o7der",
+      "timestamp": "2026-09-25T12:07:58.908Z"
+    },
+    {
+      "actorId": "usr_canonical_customer_test",
+      "actorName": "Mteja Wa Majaribio NIDA",
+      "actorRole": "CUSTOMER",
+      "action": "LOGIN",
+      "target": "USER:usr_canonical_customer_test",
+      "targetId": "usr_canonical_customer_test",
+      "details": "User logged in with role CUSTOMER",
+      "id": "audit_1790338082891_yi6gh",
+      "timestamp": "2026-09-25T12:08:02.891Z"
+    },
+    {
+      "actorId": "usr_canonical_customer_test",
+      "actorName": "Mteja Wa Majaribio NIDA",
+      "actorRole": "CUSTOMER",
+      "action": "LOGIN",
+      "target": "USER:usr_canonical_customer_test",
+      "targetId": "usr_canonical_customer_test",
+      "details": "User logged in with role CUSTOMER",
+      "id": "audit_1790338092188_s6jku",
+      "timestamp": "2026-09-25T12:08:12.188Z"
+    },
+    {
+      "actorId": "usr_canonical_customer_test",
+      "actorName": "Mteja Wa Majaribio NIDA",
+      "actorRole": "CUSTOMER",
+      "action": "LOGIN",
+      "target": "USER:usr_canonical_customer_test",
+      "targetId": "usr_canonical_customer_test",
+      "details": "User logged in with role CUSTOMER",
+      "id": "audit_1790338115155_4oazt",
+      "timestamp": "2026-09-25T12:08:35.155Z"
+    },
+    {
+      "actorId": "usr_canonical_customer_test",
+      "actorName": "Mteja Wa Majaribio NIDA",
+      "actorRole": "CUSTOMER",
+      "action": "LOGIN",
+      "target": "USER:usr_canonical_customer_test",
+      "targetId": "usr_canonical_customer_test",
+      "details": "User logged in with role CUSTOMER",
+      "id": "audit_1790338121845_f7byr",
+      "timestamp": "2026-09-25T12:08:41.845Z"
+    },
+    {
+      "actorId": "usr_canonical_customer_test",
+      "actorName": "Mteja Wa Majaribio NIDA",
+      "actorRole": "CUSTOMER",
+      "action": "REQUEST_CREATED",
+      "target": "REQUEST:NMY-20260925-0KWNJR",
+      "targetId": "NMY-20260925-0KWNJR",
+      "details": "Customer submitted request NMY-20260925-0KWNJR for 0755123456. Charged: TSh 100. New balance: TSh 1900.",
+      "id": "audit_1790338121867_d1tfb",
+      "timestamp": "2026-09-25T12:08:41.867Z"
+    },
+    {
+      "actorId": "usr_canonical_admin_ops",
+      "actorName": "Admin Wa Usindikaji NIDA",
+      "actorRole": "ADMIN",
+      "action": "LOGIN",
+      "target": "USER:usr_canonical_admin_ops",
+      "targetId": "usr_canonical_admin_ops",
+      "details": "User logged in with role ADMIN",
+      "id": "audit_1790338128154_1du8z",
+      "timestamp": "2026-09-25T12:08:48.154Z"
+    },
+    {
+      "actorId": "usr_canonical_admin_ops",
+      "actorName": "Admin Wa Usindikaji NIDA",
+      "actorRole": "ADMIN",
+      "action": "REQUEST_CLAIMED",
+      "target": "REQUEST:NMY-20260925-0KWNJR",
+      "targetId": "NMY-20260925-0KWNJR",
+      "details": "ADMIN Admin Wa Usindikaji NIDA claimed request NMY-20260925-0KWNJR for processing.",
+      "id": "audit_1790338128181_lyz6n",
+      "timestamp": "2026-09-25T12:08:48.181Z"
+    },
+    {
+      "actorId": "usr_canonical_admin_ops",
+      "actorName": "Admin Wa Usindikaji NIDA",
+      "actorRole": "ADMIN",
+      "action": "LOGIN",
+      "target": "USER:usr_canonical_admin_ops",
+      "targetId": "usr_canonical_admin_ops",
+      "details": "User logged in with role ADMIN",
+      "id": "audit_1790338141772_uexo8",
+      "timestamp": "2026-09-25T12:09:01.772Z"
+    },
+    {
+      "actorId": "usr_canonical_admin_ops",
+      "actorName": "Admin Wa Usindikaji NIDA",
+      "actorRole": "ADMIN",
+      "action": "REQUEST_APPROVED",
+      "target": "REQUEST:NMY-20260925-0KWNJR",
+      "targetId": "NMY-20260925-0KWNJR",
+      "details": "ADMIN Admin Wa Usindikaji NIDA completed request NMY-20260925-0KWNJR. NIDA: 19900101123450000123. Earned: TSh 100.",
+      "id": "audit_1790338141802_on9po",
+      "timestamp": "2026-09-25T12:09:01.802Z"
+    },
+    {
+      "actorId": "usr_canonical_customer_test",
+      "actorName": "Mteja Wa Majaribio NIDA",
+      "actorRole": "CUSTOMER",
+      "action": "LOGIN",
+      "target": "USER:usr_canonical_customer_test",
+      "targetId": "usr_canonical_customer_test",
+      "details": "User logged in with role CUSTOMER",
+      "id": "audit_1790338149579_182aa",
+      "timestamp": "2026-09-25T12:09:09.579Z"
+    },
+    {
+      "actorId": "usr_canonical_customer_test",
+      "actorName": "Mteja Wa Majaribio NIDA",
+      "actorRole": "CUSTOMER",
+      "action": "LOGIN",
+      "target": "USER:usr_canonical_customer_test",
+      "targetId": "usr_canonical_customer_test",
+      "details": "User logged in with role CUSTOMER",
+      "id": "audit_1790338154743_8mhes",
+      "timestamp": "2026-09-25T12:09:14.743Z"
+    },
+    {
+      "actorId": "usr_canonical_super_admin",
+      "actorName": "Baraka Mabula",
+      "actorRole": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "USER:usr_canonical_super_admin",
+      "targetId": "usr_canonical_super_admin",
+      "details": "User logged in with role SUPER_ADMIN",
+      "id": "audit_1790338516671_mdv15",
+      "timestamp": "2026-09-25T12:15:16.671Z"
+    },
+    {
+      "actorId": "usr_canonical_super_admin",
+      "actorName": "Baraka Mabula",
+      "actorRole": "SUPER_ADMIN",
+      "action": "BACKUP_CREATED_MANUAL",
+      "target": "BACKUP_CENTER",
+      "targetId": "bup_1790338516696_973mp",
+      "details": "Super Admin created verified manual backup: nmy_prod_backup_2026-09-25T12-15-16-695Z.json (21997 bytes, SHA256: 46d3c361dd...).",
+      "id": "audit_1790338516697_t3zyp",
+      "timestamp": "2026-09-25T12:15:16.697Z"
+    },
+    {
+      "id": "audit_1790338609073_test_cleanup",
+      "actorId": "usr_canonical_super_admin",
+      "actorName": "Baraka Mabula",
+      "actorRole": "SUPER_ADMIN",
+      "action": "TEST_ACCOUNTS_DISABLED",
+      "target": "USERS",
+      "targetId": "0711000001,0788000001",
+      "details": "Verified test accounts (0711000001, 0788000001) safely disabled from production access. No customer data touched.",
+      "timestamp": "2026-09-25T12:16:49.073Z"
+    },
+    {
+      "actorId": "usr_canonical_super_admin",
+      "actorName": "Baraka Mabula",
+      "actorRole": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "USER:usr_canonical_super_admin",
+      "targetId": "usr_canonical_super_admin",
+      "details": "User logged in with role SUPER_ADMIN",
+      "id": "audit_1790338617141_p6kiy",
+      "timestamp": "2026-09-25T12:16:57.141Z"
+    },
+    {
+      "actorId": "usr_canonical_super_admin",
+      "actorName": "Baraka Mabula",
+      "actorRole": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "USER:usr_canonical_super_admin",
+      "targetId": "usr_canonical_super_admin",
+      "details": "User logged in with role SUPER_ADMIN",
+      "id": "audit_1790338628726_rzsts",
+      "timestamp": "2026-09-25T12:17:08.726Z"
+    },
+    {
+      "actorId": "usr_canonical_super_admin",
+      "actorName": "Baraka Mabula",
+      "actorRole": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "USER:usr_canonical_super_admin",
+      "targetId": "usr_canonical_super_admin",
+      "details": "User logged in with role SUPER_ADMIN",
+      "id": "audit_1790338628857_wjssg",
+      "timestamp": "2026-09-25T12:17:08.857Z"
+    },
+    {
+      "actorId": "usr_canonical_super_admin",
+      "actorName": "Baraka Mabula",
+      "actorRole": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "USER:usr_canonical_super_admin",
+      "targetId": "usr_canonical_super_admin",
+      "details": "User logged in with role SUPER_ADMIN",
+      "id": "audit_1790338628978_3gt5o",
+      "timestamp": "2026-09-25T12:17:08.979Z"
+    },
+    {
+      "actorId": "usr_canonical_super_admin",
+      "actorName": "Baraka Mabula",
+      "actorRole": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "USER:usr_canonical_super_admin",
+      "targetId": "usr_canonical_super_admin",
+      "details": "User logged in with role SUPER_ADMIN",
+      "id": "audit_1790338629102_pnl93",
+      "timestamp": "2026-09-25T12:17:09.102Z"
+    },
+    {
+      "actorId": "usr_1790338642542_pj3hc",
+      "actorName": "Juma Hamisi",
+      "actorRole": "CUSTOMER",
+      "action": "REGISTER",
+      "target": "USER:usr_1790338642542_pj3hc",
+      "targetId": "usr_1790338642542_pj3hc",
+      "details": "Customer registered successfully with phone 255766123456",
+      "id": "audit_1790338642543_9pc4a",
+      "timestamp": "2026-09-25T12:17:22.543Z"
+    },
+    {
+      "actorId": "usr_1790338642542_pj3hc",
+      "actorName": "Juma Hamisi",
+      "actorRole": "CUSTOMER",
+      "action": "LOGIN",
+      "target": "USER:usr_1790338642542_pj3hc",
+      "targetId": "usr_1790338642542_pj3hc",
+      "details": "User logged in with role CUSTOMER",
+      "id": "audit_1790338642668_xhxng",
+      "timestamp": "2026-09-25T12:17:22.668Z"
+    },
+    {
+      "actorId": "usr_canonical_super_admin",
+      "actorName": "Baraka Mabula",
+      "actorRole": "SUPER_ADMIN",
+      "action": "LOGIN",
+      "target": "USER:usr_canonical_super_admin",
+      "targetId": "usr_canonical_super_admin",
+      "details": "User logged in with role SUPER_ADMIN",
+      "id": "audit_1790338642796_36776",
+      "timestamp": "2026-09-25T12:17:22.796Z"
+    },
+    {
+      "actorId": "usr_1790338642542_pj3hc",
+      "actorName": "Juma Hamisi",
+      "actorRole": "CUSTOMER",
+      "action": "LOGIN",
+      "target": "USER:usr_1790338642542_pj3hc",
+      "targetId": "usr_1790338642542_pj3hc",
+      "details": "User logged in with role CUSTOMER",
+      "id": "audit_1790338668179_6ruyz",
+      "timestamp": "2026-09-25T12:17:48.179Z"
+    },
+    {
+      "actorId": "usr_1790338642542_pj3hc",
+      "actorName": "Juma Hamisi",
+      "actorRole": "CUSTOMER",
+      "action": "LOGOUT",
+      "target": "USER:usr_1790338642542_pj3hc",
+      "targetId": "usr_1790338642542_pj3hc",
+      "details": "User logged out",
+      "id": "audit_1790338677942_6vdne",
+      "timestamp": "2026-09-25T12:17:57.942Z"
+    }
+  ],
+  "settings": {
+    "platformName": "NIDA MITANDAO YOTE",
+    "companyName": "RAVINI COMPANY LIMITED",
+    "publicRegistrationOpen": true,
+    "appAccessOpen": true,
+    "requestTimeoutMinutes": 60,
+    "supportPhone": "255748604483",
+    "whatsappNumber": "255748604483",
+    "paymentInstructions": "Lipa kiasi unachotaka cha Credit kupitia namba zetu za malipo hapa chini. Baada ya malipo, weka namba ya kumbukumbu (Reference ID) kwenye mfumo kwa ajili ya uhakiki.",
+    "servicePriceTzs": 100,
+    "paymentMethods": [
+      {
+        "id": "mpesa",
+        "name": "M-PESA",
+        "accountNumber": "255748604483",
+        "accountName": "Baraka Mabula / RAVINI COMPANY LIMITED",
+        "instructions": "Tuma pesa kwenda namba 0748604483 (Baraka Mabula). Hifadhi namba ya muamala.",
+        "isActive": true
+      },
+      {
+        "id": "airtel",
+        "name": "Airtel Money",
+        "accountNumber": "255748604483",
+        "accountName": "Baraka Mabula / RAVINI COMPANY LIMITED",
+        "instructions": "Tuma pesa kwenda Airtel Money kisha hifadhi ujumbe wa muamala.",
+        "isActive": true
+      },
+      {
+        "id": "mixx",
+        "name": "Mixx by Yas",
+        "accountNumber": "255748604483",
+        "accountName": "Baraka Mabula / RAVINI COMPANY LIMITED",
+        "instructions": "Fanya malipo kupitia Mixx by Yas kisha weka namba ya kumbukumbu.",
+        "isActive": true
+      }
+    ]
+  }
+}
